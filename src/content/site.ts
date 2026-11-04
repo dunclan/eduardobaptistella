@@ -12,6 +12,7 @@ export const site = {
    * Exemplos: email com href 'mailto:...', WhatsApp com href 'https://wa.me/55...'.
    */
   contacts: [
+    { label: 'Email', value: 'eduardobaptistellaleite@gmail.com', href: 'mailto:eduardobaptistellaleite@gmail.com' },
     { label: 'GitHub', value: 'github.com/dunclan', href: 'https://github.com/dunclan' },
   ],
 }
