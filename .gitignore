@@ -1,0 +1,14 @@
+node_modules
+.next
+.vercel
+.env*
+_captures
+*.tsbuildinfo
+next-env.d.ts
+qa-output
+
+.vercel
+docs/INVENTARIO.md
+docs/REVIEW.md
+HANDOFF.md
+wiki/

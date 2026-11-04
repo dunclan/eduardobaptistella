@@ -1,0 +1,240 @@
+{
+ "insunia": {
+  "hero": {
+   "width": 2000,
+   "height": 1250
+  },
+  "a": {
+   "width": 2000,
+   "height": 1250
+  },
+  "b": {
+   "width": 2000,
+   "height": 1250
+  },
+  "c": {
+   "width": 2000,
+   "height": 1250
+  },
+  "d": {
+   "width": 2000,
+   "height": 1250
+  },
+  "m1": {
+   "width": 780,
+   "height": 1688
+  },
+  "m2": {
+   "width": 780,
+   "height": 1688
+  },
+  "m3": {
+   "width": 780,
+   "height": 1688
+  }
+ },
+ "sport-container": {
+  "hero": {
+   "width": 2000,
+   "height": 1250
+  },
+  "a": {
+   "width": 2000,
+   "height": 1250
+  },
+  "b": {
+   "width": 2000,
+   "height": 1250
+  },
+  "c": {
+   "width": 2000,
+   "height": 1250
+  },
+  "d": {
+   "width": 2000,
+   "height": 1250
+  },
+  "m1": {
+   "width": 780,
+   "height": 1688
+  },
+  "m2": {
+   "width": 780,
+   "height": 1688
+  },
+  "m3": {
+   "width": 780,
+   "height": 1688
+  }
+ },
+ "guia-capivari": {
+  "hero": {
+   "width": 2000,
+   "height": 1250
+  },
+  "a": {
+   "width": 2000,
+   "height": 1250
+  },
+  "b": {
+   "width": 2000,
+   "height": 1250
+  },
+  "c": {
+   "width": 2000,
+   "height": 1250
+  },
+  "d": {
+   "width": 2000,
+   "height": 1250
+  },
+  "m1": {
+   "width": 780,
+   "height": 1688
+  },
+  "m2": {
+   "width": 780,
+   "height": 1688
+  },
+  "m3": {
+   "width": 780,
+   "height": 1688
+  }
+ },
+ "smart-hub": {
+  "hero": {
+   "width": 2000,
+   "height": 1250
+  },
+  "a": {
+   "width": 2000,
+   "height": 1250
+  },
+  "b": {
+   "width": 2000,
+   "height": 1250
+  },
+  "c": {
+   "width": 2000,
+   "height": 1250
+  },
+  "d": {
+   "width": 2000,
+   "height": 1250
+  },
+  "m1": {
+   "width": 780,
+   "height": 1688
+  },
+  "m2": {
+   "width": 780,
+   "height": 1688
+  },
+  "m3": {
+   "width": 780,
+   "height": 1688
+  }
+ },
+ "armazem-capivari": {
+  "hero": {
+   "width": 2000,
+   "height": 1250
+  },
+  "a": {
+   "width": 2000,
+   "height": 1250
+  },
+  "b": {
+   "width": 2000,
+   "height": 1250
+  },
+  "c": {
+   "width": 2000,
+   "height": 1250
+  },
+  "d": {
+   "width": 2000,
+   "height": 1250
+  },
+  "m1": {
+   "width": 780,
+   "height": 1688
+  },
+  "m2": {
+   "width": 780,
+   "height": 1688
+  },
+  "m3": {
+   "width": 780,
+   "height": 1688
+  }
+ },
+ "camila-tobaldini": {
+  "hero": {
+   "width": 1440,
+   "height": 900
+  },
+  "a": {
+   "width": 2000,
+   "height": 1250
+  },
+  "b": {
+   "width": 2000,
+   "height": 1250
+  },
+  "c": {
+   "width": 2000,
+   "height": 1250
+  },
+  "d": {
+   "width": 2000,
+   "height": 1250
+  },
+  "m1": {
+   "width": 780,
+   "height": 1688
+  },
+  "m2": {
+   "width": 780,
+   "height": 1688
+  },
+  "m3": {
+   "width": 780,
+   "height": 1688
+  }
+ },
+ "vacation-hub": {
+  "hero": {
+   "width": 2000,
+   "height": 1250
+  },
+  "a": {
+   "width": 2000,
+   "height": 1250
+  },
+  "b": {
+   "width": 2000,
+   "height": 1250
+  },
+  "c": {
+   "width": 2000,
+   "height": 1250
+  },
+  "d": {
+   "width": 2000,
+   "height": 1250
+  },
+  "m1": {
+   "width": 780,
+   "height": 1688
+  },
+  "m2": {
+   "width": 780,
+   "height": 1688
+  },
+  "m3": {
+   "width": 780,
+   "height": 1688
+  }
+ }
+}
