@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   authors: [{ name: site.name }],
   robots: { index: site.indexable, follow: site.indexable },
   openGraph: {
-    type: 'website', locale: 'pt_BR', siteName: site.name,
+    type: 'website', locale: 'pt_BR', siteName: site.name, url: '/',
     title: `${site.name}: tudo aqui está no ar.`, description: site.description,
-    images: [{ url: '/og.jpg', width: 1200, height: 630, alt: 'Tudo aqui está no ar. Portfólio de Eduardo Baptistella.' }],
+    images: [{ url: '/og/home.jpg', width: 1200, height: 630, alt: 'Tudo aqui está no ar. Portfólio de Eduardo Baptistella.' }],
   },
   twitter: { card: 'summary_large_image' },
 }

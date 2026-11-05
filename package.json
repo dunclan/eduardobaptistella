@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "images": "node scripts/images.mjs",
+    "brand": "node scripts/brand.mjs",
     "check": "node --test tests/*.test.mjs",
     "qa": "node scripts/qa.mjs"
   },

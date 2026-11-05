@@ -38,7 +38,8 @@ npm run dev
 3. Acrescente o projeto em `SOURCES` de `scripts/images.mjs`, com as chaves `hero`, `a`, `b`, `c`, `d`, `m1`, `m2`, `m3`.
 4. Rode `npm run images`.
 5. Acrescente o objeto em `projects`, em `src/content/pt.ts`. O TypeScript aponta qualquer campo faltando. Confira se cada `alt` e `caption` descreve a imagem escolhida.
-6. Rode `npm run check`.
+6. Rode `npm run brand` para gerar a imagem de compartilhamento do projeto em `public/og`.
+7. Rode `npm run check`.
 
 `_captures/` fica fora do Git e do deploy. Faça backup dessa pasta se quiser reprocessar as imagens depois.
 

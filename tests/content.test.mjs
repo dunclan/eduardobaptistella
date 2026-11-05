@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict'
 import fs from 'node:fs'
 import { test } from 'node:test'
+import sharp from 'sharp'
 import { archive, disciplines, projects } from '../src/content/pt.ts'
 
 const luminance = (hex) => {
@@ -24,6 +25,13 @@ test('todo projeto tem imagens em disco e texto completo', () => {
     }
     for (const field of ['summary', 'context', 'problem', 'solution', 'evidence']) assert.ok(p[field].length > 10, `${p.slug}.${field}`)
     assert.ok(p.features.length >= 3 && p.stack.length >= 3, p.slug)
+  }
+})
+
+test('imagens de compartilhamento têm 1200x630', async () => {
+  for (const name of ['home', ...projects.map((p) => p.slug)]) {
+    const { width, height } = await sharp(`public/og/${name}.jpg`).metadata()
+    assert.deepEqual([width, height], [1200, 630], name)
   }
 })
 

@@ -15,12 +15,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const project = getContent().projects.find((p) => p.slug === slug)
   if (!project) return {}
-  const image = `/work/${slug}/hero.webp`
   return {
     title: project.name,
     description: project.summary,
     alternates: { canonical: `/trabalho/${slug}` },
-    openGraph: { title: `${project.name} · ${site.name}`, description: project.summary, images: [image] },
+    openGraph: {
+      type: 'article', locale: 'pt_BR', siteName: site.name, url: `/trabalho/${slug}`,
+      title: `${project.name} · ${site.name}`, description: project.summary,
+      images: [{ url: `/og/${slug}.jpg`, width: 1200, height: 630, alt: `${project.name}, trabalho de ${site.name}.` }],
+    },
   }
 }
 

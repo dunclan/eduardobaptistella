@@ -319,7 +319,8 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .contact :focus-visible { outline-color: var(--ink); }
 .contact__big { align-self: center; font-weight: 800; text-transform: uppercase; font-variation-settings: 'wdth' 70; font-size: min(17.5vw, 25vh); line-height: 0.86; letter-spacing: -0.012em; }
 .contact__big span { display: block; }
-.contact__big span:nth-child(2) { text-align: right; }
+/* Espaço para o acento do É não encostar na linha de cima. */
+.contact__big span:nth-child(3) { margin-top: 0.12em; }
 .contact__grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 20px var(--m); align-items: end; }
 .contact__text { grid-column: 1 / span 5; font-size: clamp(1.15rem, 1.6vw, 1.6rem); line-height: 1.25; }
 .contact__links { grid-column: 7 / -1; display: grid; }
@@ -458,7 +459,6 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   .tech__n { display: none; }
   .tech__name, .tech__text, .tech__seen { grid-column: 1 / -1; }
   .contact__big { font-size: 23vw; }
-  .contact__big span:nth-child(2) { text-align: left; }
   .contact__text, .contact__links { grid-column: 1 / -1; }
   .case__hero { min-height: 58dvh; }
   /* No celular o título quebra por palavra e o corpo segue a palavra mais longa. */
